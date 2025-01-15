@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Inter", serif;
+}
+body {
+    display: grid;
+    grid-template-rows: 1fr 8fr 0.8fr;
+    height: 100vh;
+    background-color: #f3f5f8;
+}
+header {
+	display: flex;
+	flex-direction: row;
+    align-items: center;
+	gap: 10px;
+	background-color: #f3f5f8;
+	padding: 13px 0 13px 16px;
+}
+h1 {
+	font-family: "Pacifico", serif;
+	font-weight: 400;
+	font-size: 23px;
+}
+main {
+    overflow-y: auto;
+	padding: 20px 16px 0 16px;
+    background-color: #fff;
+    border-radius: 12px 12px 0 0;
+}
+.articleNote {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+h2 {
+	color: #0e121b;
+	margin-bottom: 1rem;
+	font-weight: 700;
+	font-size: 24px;
+}
+.sectionNote {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding: 8px;
+}
+.f-r {
+	display: flex;
+	flex-direction: row;
+	gap: 4px;
+}
+.divJob {
+	background-color: #e0e4ea;
+	padding: 2px 6px 2px 4px;
+	border-radius: 4px;
+}
+.date {
+	color: #2b303b;
+	font-size: 12px;
+	font-weight: 400;
+}
+hr {
+	background-color: #e0e4ea;
+	border-radius: 20px;
+}
+.divPlus {
+    display: block;
+	position: absolute;
+	bottom: 72px;
+	right: 16px;
+	border-radius: 50%;
+	background-color: #335cff;
+	-webkit-box-shadow: 0px 7px 11px 0px rgba(202, 207, 216, 0.7);
+	box-shadow: 0px 7px 11px 0px rgba(202, 207, 216, 0.7);
+	height: 48px;
+	width: 48px;
+	border: none;
+}
+footer {
+	background-color: #fff;
+	border-top: #e0e4ea 1px solid;
+	padding: 12px 16px;
+	-webkit-box-shadow: 0px -4px 6px 0px rgba(240, 240, 240, 0.6);
+	box-shadow: 0px -4px 6px 0px rgba(240, 240, 240, 0.6);
+}
+ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+.navBtnGrey,
+.navBtn {
+	padding: 4px 22px;
+	border: none;
+	border-radius: 4px;
+}
+.navBtnGrey {
+	background-color: #ebf1ff;
+}
+.navBtn {
+	background-color: transparent;
+}
+.tablet {
+	display: none;
+}
+.artNav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.sectNav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.divBack {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.divDel {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+.cancel {
+    font-weight: 400;
+    font-size: 14px;
+    color: #525866;
+}
+.saveNote {
+    color: #335CFF;
+    font-size: 16px;
+    font-weight: 400;   
+    width: 100%;
+}
+h2 {
+    color: #0E121B;
+    font-size: 24px;
+    font-weight: 700;
+}
+.sectAttr {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.divAttr, .divAttribut, .attr {
+    display: flex;
+    flex-direction: row;
+}
+.divAttr {
+    gap: 74px;
+}
+.divAttribut {
+    gap: 39px;
+}
+.attr {
+    gap: 6px;
+}
+.tagsAttr, .attrDate {
+    color: #2B303B;
+    font-weight: 400;
+}
+textarea {
+    width: 343px;
+    height: 529px;
+    color: #232530;
+    font-size: 14px;
+    font-weight: 400;
+}
